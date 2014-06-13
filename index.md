@@ -1,0 +1,74 @@
+---
+title       : Prediction of Spain soccer team results World Cup 2014
+subtitle    : An APP for Coursera Data Development Products Course
+author      : Jose F. Perles Ribes
+job         : 
+framework   : html5slides   # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+github:
+  user:Joseperles
+  repo:slidifyApp4
+---
+
+## 
+
+> Prediction of Spain soccer team results World Cup 2014
+
+> An APP for Coursera Data Development Products Course
+
+> Jose F. Perles Ribes
+
+---
+
+## APP presentation
+
+
+
+> 1.This APP provides you a prediction for the results of the matches for Spanish soccer team during the next World Cup to be held in Brazil.
+
+> 2.The theory, very well supported by complex statistical models learned in this Coursera Specialization,... but not for the reality,... is that Spain always get three goals more than his rival. Enjoy it!!!. :)))
+
+> 3.Try this APP https://joseperles.shinyapps.io/App4/
+
+---
+
+## Instructions
+
+
+> 1.In this APP you intro in the box the prediction goals of the Spanish team rival.
+
+> 2.Insert the number of goals for the rival and press submit button.
+
+> 3.The application returns you a number with the prediction of the Goals for Spanish team and a graph to visualize the final result.
+
+---
+
+## Example of output performance
+
+
+```r
+v <- c(3, 3 + 3)
+barplot(v, xlab = "Rival-Spain Goals", main = "Spain always wins!!")
+```
+
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
+
+```r
+
+```
+
+
+---
+
+## Warranties and suggestions
+
+> 1.THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+> 2.Predictions are not guaranteed to be confirmed by reality. Please, do not bet any money based on this software. 
+
+> 3.Please, send your suggestions to a xxxxxxxx@xxx.com
+
+
